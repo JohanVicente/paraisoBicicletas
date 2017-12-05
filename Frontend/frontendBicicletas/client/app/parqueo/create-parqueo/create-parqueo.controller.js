@@ -34,7 +34,7 @@ class CreateParqueoComponent {
         this.precio = 1500;
         this.horaNew = this.horas -5;
         this.precio = 3 * this.precio + this.horaNew * this.precio;
-        this.precio = this.precio - (this.precio * 0.05); 
+        this.precio = this.precio - (this.precio * 0.05);
       }
 
   	})
@@ -43,6 +43,26 @@ class CreateParqueoComponent {
       // this.$state.go('usuarios-list');
   	})
   }
+
+
+
+
+calculoPrecio(codigoFicha){
+  if (this.horas <= 3) {
+    this.precio = 2000;
+    this.precio = this.precio * this.horas;
+  }else if(this.hora <= 5){
+    this.precio = 1500;
+    this.horaNew = this.horas -3;
+    this.precio = 3 * this.precio + this.horaNew * this.precio;
+  }else if (this.horas > 5) {
+    this.precio = 1500;
+    this.horaNew = this.horas -5;
+    this.precio = 3 * this.precio + this.horaNew * this.precio;
+    this.precio = this.precio - (this.precio * 0.05);
+  }
+}
+
 
 
   /*getParqueo(){

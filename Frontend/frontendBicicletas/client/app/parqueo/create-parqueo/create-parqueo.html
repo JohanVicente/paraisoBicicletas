@@ -1,0 +1,35 @@
+<section class="">
+  <div class="container">
+    <div class="row">
+      <div class="">
+        <form ng-submit='vm.createParqueo()' class="FormParqueo">
+          <div class="form-group">
+            <label for="parqueo1">Codigo Ficha</label>
+            <input type="text" class="form-control" id="parqueo1" ng-model='vm.parqueo.codigoFicha'>
+          </div>
+          <div class="form-group">
+            <label for="parqueo2">Matricula</label>
+            <input type="text" class="form-control" id="parqueo2" ng-model='vm.parqueo.matricula'>
+          </div>
+          <select class="" ng-model="vm.parqueo.cliente.id">
+            <option></option>
+            <option ng-repeat="item in vm.clientes" ng-value="{{item.id}}">{{item.nombre}}</option>
+          </select>
+          <div class="form-group">
+            <label for="parqueo3">Fecha</label>
+            <input type="text" class="form-control" id="parqueo3" ng-model='vm.parqueo.fecha'>
+          </div>
+          <div class="form-group">
+            <label for="parqueo4">Horas</label>
+            <input type="text" class="form-control" id="parqueo4" ng-model='vm.parqueo.horas'>
+          </div>
+          <!-- <div class="form-group">
+            <label for="parqueo5">Precio</label>
+            <input type="text" class="form-control" id="parqueo5" ng-model='vm.parqueo.precio'>
+          </div> -->
+          <button type="submit" class="btn btn-primary">Crear</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

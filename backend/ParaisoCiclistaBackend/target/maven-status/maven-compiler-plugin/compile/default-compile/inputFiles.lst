@@ -1,0 +1,15 @@
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/entities/Bicicleta.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/ApplicationConfig.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/sessions/MarcaFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/sessions/AbstractFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/ParqueoFacadeREST.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/BicicletaFacadeREST.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/sessions/BicicletaFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/AbstractFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/MarcaFacadeREST.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/rest/services/ClienteFacadeREST.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/entities/Marca.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/sessions/ClienteFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/entities/Cliente.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/sessions/ParqueoFacade.java
+/home/bratc/NetBeansProjects/ParaisoCiclista/src/main/java/com/paraisociclista/jpa/entities/Parqueo.java

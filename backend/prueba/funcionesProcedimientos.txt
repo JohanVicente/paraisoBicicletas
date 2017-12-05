@@ -1,0 +1,21 @@
+delimiter //
+create procedure bicicletaList()
+begin
+select a.fecha, a.matricula, b.nombre from parqueo as a INNER JOIN cliente as b on id = IdCliente;
+end//
+
+call bicicletaList()//
+
+
+select sum(precio) from parqueo inner join cliente on id = idCliente where numDocumento = 554433;
+
+delimiter //
+create function ValorBicicletas(NumDocumentos int) 
+returns int
+begin
+declare valorTotal int;
+select sum(precio) into valorTotal from parqueo inner join cliente on id = idCliente where numDocumento = NumDocumentos;
+return valorTotal;
+end//
+
+select ValorBicicletas(554433)//

@@ -4,9 +4,8 @@
 
 class MainController {
 
-  constructor($http) {
-    this.$http = $http;
-    this.awesomeThings = [];
+  constructor(parqueoService) {
+    this.parqueoService = parqueoService;
   }
 
   $onInit() {
@@ -19,7 +18,8 @@ class MainController {
 angular.module('paraisoBicicletasApp')
   .component('main', {
     templateUrl: 'app/main/main.html',
-    controller: MainController
+    controller: MainController,
+    controllerAs:'vm'
   });
 
 })();
